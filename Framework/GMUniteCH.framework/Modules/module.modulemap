@@ -1,0 +1,6 @@
+framework module GMUniteCH {
+  umbrella header "GMUniteCH.h"
+
+  export *
+  module * { export * }
+}
