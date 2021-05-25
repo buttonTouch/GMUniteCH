@@ -64,6 +64,8 @@ typedef NS_ENUM(NSInteger, GamaLanguageType) {
 /// 隐藏加载页
 +(void)hiddonLoading;
 
++(void)openWebWithURL:(NSString *)URLString;
+
 /// 获取设置唯一标识
 /// 获取设置唯一标识需要用keychain相关的内容 在项目的targets -> sgining&capabilipies 添加 Keychina sharing  设置值为包名
 +(NSString *)getDeviceUniqueId;
