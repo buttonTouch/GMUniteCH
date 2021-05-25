@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "GMUniteCH"
-  spec.version      = "1.0.0"#版本号
+  spec.version      = "1.0.1"#版本号
   spec.summary      = "GMUnite for gama games developer."
   spec.description  = <<-DESC
     GMUnitech for gama games developer.游戏发中国大陆地区使用Umeng统计和穿山甲广告
@@ -20,12 +20,12 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "9.0"
   spec.source       = { :git => "https://github.com/buttonTouch/GMUniteCH.git", :tag => "#{spec.version}" }
   spec.resource = "Framework/GMGSupport.bundle"
-  spec.ios.vendored_frameworks = 'Framework/GMUnite.framework'
-  spec.frameworks = "UIKit", "Foundation","AudioToolbox"
+  spec.ios.vendored_frameworks = 'Framework/GMUniteCH.framework'
+  spec.frameworks = "UIKit", "Foundation","AudioToolbox","AppTrackingTransparency.framework","CFNetwork.framework","StoreKit.framework","WebKit.framework"
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
   spec.requires_arc = true
-  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64'}#支持架构配置
+  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64'}
   spec.dependency "Reachability"
   spec.dependency "Masonry"
   spec.dependency "AFNetworking"

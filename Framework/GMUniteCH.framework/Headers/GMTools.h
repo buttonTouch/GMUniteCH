@@ -54,6 +54,16 @@ typedef NS_ENUM(NSInteger, GamaLanguageType) {
 /// 是否是下载首日
 +(BOOL)isDownloadFirstDay;
 
+/// 屏幕上显示提示文字 1.5秒后消失
+/// @param message 提示信息
++(void)showMessage:(NSString *)message;
+
+/// 显示加载页
++(void)showLoadingView;
+
+/// 隐藏加载页
++(void)hiddonLoading;
+
 /// 获取设置唯一标识
 /// 获取设置唯一标识需要用keychain相关的内容 在项目的targets -> sgining&capabilipies 添加 Keychina sharing  设置值为包名
 +(NSString *)getDeviceUniqueId;
@@ -61,8 +71,12 @@ typedef NS_ENUM(NSInteger, GamaLanguageType) {
 /// 打开用户评价
 +(void)openRate;
 
+/// app Tracking 权限请求
++(void)requestAppTracking;
+
 #pragma mark - Post请求获取数据
 +(void)POST:(NSString *)urlString Param:(NSDictionary <NSString *,NSString *>*)params header:(NSDictionary <NSString *,NSString *>*)headers callback:(void(^)(BOOL isSuccess,id response))callback;
+
 #pragma mark - Get请求获取数据
 +(void)Get:(NSString *)urlString Param:(NSDictionary <NSString *,NSString *>*)params header:(NSDictionary <NSString *,NSString *>*)headers callback:(void(^)(BOOL isSuccess,id response))callback;
 

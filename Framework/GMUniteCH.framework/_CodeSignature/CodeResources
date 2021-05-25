@@ -168,10 +168,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>GMConfig.plist</key>
-		<data>
-		IpzJ3dAT7EeyzAY/OKo4CwXFLoM=
-		</data>
 		<key>Headers/GMCoreManager.h</key>
 		<data>
 		0o77siWUUF9IwKtkz2UtnrlxpY4=
@@ -182,7 +178,7 @@
 		</data>
 		<key>Headers/GMTools.h</key>
 		<data>
-		tGSQqbqcfA3uhVv7+PwmVxxYHJI=
+		GnUCN7eteCmujAkhAuLuUr0Shg0=
 		</data>
 		<key>Headers/GMUniteCH.h</key>
 		<data>
@@ -190,7 +186,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		6S/cgQONh8YleCLcMuEbZyZz5OY=
+		I4YB4LNYJ/g87EspO/Fw7BlsQwA=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -502,17 +498,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>GMConfig.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			IpzJ3dAT7EeyzAY/OKo4CwXFLoM=
-			</data>
-			<key>hash2</key>
-			<data>
-			tiFnEdY1jRFiT7gXOkQQe1MNsqap7Z8WJUqDbBo7HJc=
-			</data>
-		</dict>
 		<key>Headers/GMCoreManager.h</key>
 		<dict>
 			<key>hash</key>
@@ -539,11 +524,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tGSQqbqcfA3uhVv7+PwmVxxYHJI=
+			GnUCN7eteCmujAkhAuLuUr0Shg0=
 			</data>
 			<key>hash2</key>
 			<data>
-			u6YwvL5flImhYieIKVhCUPQM5syrCMFEvK3lOZfFedQ=
+			EezqFhv/1C7NhxARdPsGdH68CsO94ODDyj3OaKl2jUk=
 			</data>
 		</dict>
 		<key>Headers/GMUniteCH.h</key>
