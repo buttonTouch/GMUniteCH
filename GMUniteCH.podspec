@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/buttonTouch/GMUniteCH.git", :tag => "#{spec.version}" }
   spec.resource = "Framework/GMGSupport.bundle"
   spec.ios.vendored_frameworks = 'Framework/GMUniteCH.framework'
-  spec.frameworks = "UIKit", "Foundation","AudioToolbox","AppTrackingTransparency.framework","CFNetwork.framework","StoreKit.framework","WebKit.framework"
+  spec.frameworks = "UIKit", "Foundation","AudioToolbox","AppTrackingTransparency","CFNetwork","StoreKit","WebKit"
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
   spec.requires_arc = true
