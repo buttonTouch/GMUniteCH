@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 关闭banner广告
 -(void)closeBanner;
+
 @end
 
 NS_ASSUME_NONNULL_END
