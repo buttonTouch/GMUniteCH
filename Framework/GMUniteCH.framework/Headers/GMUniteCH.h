@@ -16,5 +16,6 @@ FOUNDATION_EXPORT const unsigned char GMUniteCHVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <GMUniteCH/PublicHeader.h>
 #import <GMUniteCH/GMCoreManager.h>
 #import <GMUniteCH/GMTools.h>
+#import <GMUniteCH/GMAdManager.h>
 #import <GMUniteCH/GMTjManager.h>
 
