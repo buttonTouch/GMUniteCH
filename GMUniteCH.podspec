@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "GMUniteCH"
-  spec.version      = "1.0.1"#版本号
+  spec.version      = "1.0.3"#版本号
   spec.summary      = "GMUnite for gama games developer."
   spec.description  = <<-DESC
     GMUnitech for gama games developer.游戏发中国大陆地区使用Umeng统计和穿山甲广告
