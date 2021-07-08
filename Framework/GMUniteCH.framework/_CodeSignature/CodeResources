@@ -168,6 +168,10 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Headers/GMAdManager.h</key>
+		<data>
+		Ydw7LHSupxh2tCm4ZTlWQBqNVO8=
+		</data>
 		<key>Headers/GMCoreManager.h</key>
 		<data>
 		0o77siWUUF9IwKtkz2UtnrlxpY4=
@@ -178,15 +182,15 @@
 		</data>
 		<key>Headers/GMTools.h</key>
 		<data>
-		Rj2nYVb14BbjqqApCUiv7RmTapc=
+		gMvtNJrr1HsldnhlwafngVK2dxo=
 		</data>
 		<key>Headers/GMUniteCH.h</key>
 		<data>
-		18Nqt448PHqC50CQiquzssxVgaM=
+		a4saJ3x5sF7HOWiwYz26/FgVhqc=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pfuFlH2p2XhjoQkF+c/UyE5dHEc=
+		zHudgHC0985r23ySUM+QReo/GxQ=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -199,10 +203,6 @@
 		<key>PrivateHeaders/DeviceId.h</key>
 		<data>
 		khxUgegyv5CD6VM0eSXgs4ZVH7Q=
-		</data>
-		<key>PrivateHeaders/GMAdManager.h</key>
-		<data>
-		Ydw7LHSupxh2tCm4ZTlWQBqNVO8=
 		</data>
 		<key>PrivateHeaders/GMBannerAd.h</key>
 		<data>
@@ -227,6 +227,10 @@
 		<key>PrivateHeaders/GMVideoInterstitialAd.h</key>
 		<data>
 		PlrdZoJgSEmeZNI0Am0HhxC/K3k=
+		</data>
+		<key>PrivateHeaders/GMWebViewController.h</key>
+		<data>
+		e2LsGf6LoE7T6KEGypizOR0EWW0=
 		</data>
 		<key>PrivateHeaders/GamaRateView.h</key>
 		<data>
@@ -498,6 +502,17 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Headers/GMAdManager.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ydw7LHSupxh2tCm4ZTlWQBqNVO8=
+			</data>
+			<key>hash2</key>
+			<data>
+			PdBUpiFyNTJcth3wQqjh7grnTtoLFm6XdjIQSf3CLeU=
+			</data>
+		</dict>
 		<key>Headers/GMCoreManager.h</key>
 		<dict>
 			<key>hash</key>
@@ -524,22 +539,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Rj2nYVb14BbjqqApCUiv7RmTapc=
+			gMvtNJrr1HsldnhlwafngVK2dxo=
 			</data>
 			<key>hash2</key>
 			<data>
-			04o/JXvKC21CJSY+UXVZK4DSBxL5BE8AzqAOz+7GGjE=
+			F/39IaIjG1aDaVnmb2KE2EvG+nkEe/UGgmhJ/TtPTxI=
 			</data>
 		</dict>
 		<key>Headers/GMUniteCH.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			18Nqt448PHqC50CQiquzssxVgaM=
+			a4saJ3x5sF7HOWiwYz26/FgVhqc=
 			</data>
 			<key>hash2</key>
 			<data>
-			gUYffmTwSL/1DIBNqWceD+dMk4VxY0Kr2g/k/9dYQdc=
+			RVaazpqko30sj441fqGqZBd58lE4lE4p0VasqxDzgMU=
 			</data>
 		</dict>
 		<key>LICENSE</key>
@@ -573,17 +588,6 @@
 			<key>hash2</key>
 			<data>
 			FrMMH9rSPUbAxJG7aNnRDK3qMdwEv95bnwtNNY5pe/c=
-			</data>
-		</dict>
-		<key>PrivateHeaders/GMAdManager.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Ydw7LHSupxh2tCm4ZTlWQBqNVO8=
-			</data>
-			<key>hash2</key>
-			<data>
-			PdBUpiFyNTJcth3wQqjh7grnTtoLFm6XdjIQSf3CLeU=
 			</data>
 		</dict>
 		<key>PrivateHeaders/GMBannerAd.h</key>
@@ -650,6 +654,17 @@
 			<key>hash2</key>
 			<data>
 			OxFZPVJ+lF1zkzIkBAQENHSwFOI62pT5IbUVwwIl8Qw=
+			</data>
+		</dict>
+		<key>PrivateHeaders/GMWebViewController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			e2LsGf6LoE7T6KEGypizOR0EWW0=
+			</data>
+			<key>hash2</key>
+			<data>
+			rn6X8LStOSzCYx0LL7BIr9HRgF8SSWSomnFp6wHhwtg=
 			</data>
 		</dict>
 		<key>PrivateHeaders/GamaRateView.h</key>

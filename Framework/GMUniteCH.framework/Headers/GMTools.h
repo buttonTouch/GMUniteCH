@@ -72,9 +72,6 @@ typedef NS_ENUM(NSInteger, GamaLanguageType) {
 /// 打开用户评价
 +(void)openRate;
 
-/// app Tracking 权限请求
-+(void)requestAppTracking;
-
 #pragma mark - Post请求获取数据
 +(void)POST:(NSString *)urlString Param:(NSDictionary <NSString *,NSString *>*)params header:(NSDictionary <NSString *,NSString *>*)headers callback:(void(^)(BOOL isSuccess,id response))callback;
 
