@@ -6,11 +6,11 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "GMBaseAd.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface GMSplashAd : NSObject
--(void)openAd;
+@interface GMSplashAd : GMBaseAd
+
 @end
 
 NS_ASSUME_NONNULL_END

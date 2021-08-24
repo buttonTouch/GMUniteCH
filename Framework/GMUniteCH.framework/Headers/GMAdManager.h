@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "GMBaseAd.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface GMAdManager : NSObject
@@ -16,6 +16,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 广告SDK初始化
 -(void)initAdSdk;
+
+/// 广告状态发生改变
+-(void)adStatusChanged:(GMBaseAd *)ad;
 
 /// 打开开屏广告
 -(void)openSplash;

@@ -6,16 +6,10 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "GMBaseAd.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface GMBannerAd : NSObject
-
-/// 打开banner广告
--(void)openBanner;
-
-/// 关闭banner广告
--(void)closeBanner;
+@interface GMBannerAd : GMBaseAd
 
 @end
 
