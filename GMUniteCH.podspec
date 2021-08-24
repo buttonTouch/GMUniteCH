@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.version      = "1.0.7"#版本号
   spec.summary      = "GMUnite for gama games developer."
   spec.description  = <<-DESC
-    GMUnitech for gama games developer.游戏发中国大陆地区使用Umeng统计和穿山甲广告！
+    GMUnitech for gama games developer.游戏发中国大陆地区使用Umeng统计和穿山甲广告
                    DESC
   spec.homepage     = "https://github.com/buttonTouch/GMUniteCH.git"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
