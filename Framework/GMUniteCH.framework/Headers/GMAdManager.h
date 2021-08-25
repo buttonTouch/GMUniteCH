@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "GMBaseAd.h"
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface GMAdManager : NSObject
@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)initAdSdk;
 
 /// 广告状态发生改变
--(void)adStatusChanged:(GMBaseAd *)ad;
+-(void)adStatusChanged:(id)ad;
 
 /// 打开开屏广告
 -(void)openSplash;
@@ -38,13 +38,13 @@ NS_ASSUME_NONNULL_BEGIN
 /// 普通插屏广告是否加载成功
 -(BOOL)isInterstitialAdReady;
 /// 打开普通插屏广告
--(void)openInterstitialCallback:(void(^)(void))callback;
+-(void)openInterstitialCallback:(void(^)(BOOL))callback;
 
 
 /// 全屏视频广告是否加载成功
--(BOOL)isIntersVideoAdReady;
+-(BOOL)isFullScreenAdReady;
 /// 打开全屏视频广告
--(void)openIntersVideoCallback:(void(^)(void))callback;
+-(void)openFullScreenAdCallback:(void(^)(BOOL))callback;
 
 
 /// 激励视频是否加载成功

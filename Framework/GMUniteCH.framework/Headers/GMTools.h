@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <AudioToolbox/AudioToolbox.h>
+
 NS_ASSUME_NONNULL_BEGIN
 typedef NS_ENUM(NSInteger, GamaLanguageType) {
     Gama_SimpleChinese,//简体中文
