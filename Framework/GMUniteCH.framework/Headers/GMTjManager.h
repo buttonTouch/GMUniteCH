@@ -2,14 +2,14 @@
 //  GMTjManager.h
 //  GMUniteCH
 //
-//  Created by Mgs on 2021/4/25.
+//  Created by yao wang on 2021/9/8.
 //
 
 #import <Foundation/Foundation.h>
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface GMTjManager : NSObject
-
 /// 初始化统计SDK
 +(void)initSDK;
 
@@ -26,8 +26,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param name 统计事件名称
 /// @param params 统计事件参数值
 +(void)event:(NSString *)name params:(NSDictionary *)params;
-
-
 @end
 
 NS_ASSUME_NONNULL_END

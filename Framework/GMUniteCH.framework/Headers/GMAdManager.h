@@ -2,7 +2,7 @@
 //  GMAdManager.h
 //  GMUniteCH
 //
-//  Created by Mgs on 2021/4/25.
+//  Created by yao wang on 2021/9/8.
 //
 
 #import <Foundation/Foundation.h>
@@ -10,15 +10,11 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface GMAdManager : NSObject
-
 /// 获取单利对象
 + (instancetype)sharedInstance;
 
 /// 广告SDK初始化
 -(void)initAdSdk;
-
-/// 广告状态发生改变
--(void)adStatusChanged:(id)ad;
 
 /// 打开开屏广告
 -(void)openSplash;
@@ -38,13 +34,13 @@ NS_ASSUME_NONNULL_BEGIN
 /// 普通插屏广告是否加载成功
 -(BOOL)isInterstitialAdReady;
 /// 打开普通插屏广告
--(void)openInterstitialCallback:(void(^)(BOOL))callback;
+-(void)openInterstitialCallback:(void(^)(void))callback;
 
 
 /// 全屏视频广告是否加载成功
 -(BOOL)isFullScreenAdReady;
 /// 打开全屏视频广告
--(void)openFullScreenAdCallback:(void(^)(BOOL))callback;
+-(void)openFullScreenAdCallback:(void(^)(void))callback;
 
 
 /// 激励视频是否加载成功
